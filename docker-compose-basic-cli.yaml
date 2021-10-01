@@ -145,7 +145,7 @@ services:
       - 7051:7051
       - 17051:17051
     networks:
-      - test
+      - network
 
   peer1.city1.product.com:
     #peer base.yaml
@@ -212,7 +212,7 @@ services:
       - 8051:8051
       - 18051:18051
     networks:
-      - test
+      - network
 
   peer0.city2.product.com:
     #peer base.yaml
@@ -279,7 +279,7 @@ services:
       - 9051:9051
       - 19051:19051
     networks:
-      - test
+      - network
 
   peer1.city2.product.com:
     #peer base.yaml
@@ -346,7 +346,7 @@ services:
       - 10051:10051
       - 20051:20051
     networks:
-      - test
+      - network
 
   peer0.city3.product.com:
     #peer base.yaml
@@ -413,7 +413,7 @@ services:
       - 11051:11051
       - 21051:21051
     networks:
-      - test
+      - network
 
   peer1.city3.product.com:
     #peer base.yaml
@@ -480,7 +480,7 @@ services:
       - 12051:12051
       - 22051:22051
     networks:
-      - test
+      - network
 
   cli:
     container_name: cli
